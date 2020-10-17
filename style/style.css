@@ -1,0 +1,455 @@
+/* ROOT */
+
+:root {
+    --mons:'mons';
+    --nsans: 'Nsans';
+    --wsans: 'Wsans';
+    --green: #007d2f;
+    --grey: #787878;
+    --grey-lightbg: #f5f5f5;
+    --line-bg:#d8d8d8;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    /* outline: 1px solid red; */
+}
+
+
+
+/* ROOT END */
+/* ==================== */
+/* HEADER */
+
+.menu-btn {
+    color: var(--grey);
+}
+
+
+.header {
+    background: url(../img/header-bg.jpg) center center/cover;
+    padding-bottom: 40px;
+}
+
+.nav-link {
+    padding: 0;
+    margin: 0 15px;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.nav-link:hover {
+    color: var(--green);
+    transition: 0.5s;
+}
+
+.header__info {
+    margin-top: 80px;
+}
+
+.header__title {
+    font-size: 36px;
+    font-family: var(--mons);
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 38px;
+}
+
+.header__description {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: var(--mons);
+    color: var(--grey);
+    margin-bottom: 0;
+}
+
+.btn {
+    padding: 20px 45px;
+    background: var(--green);
+    color: var(--white);
+    margin-top: 50px;
+    text-transform: uppercase;
+
+}
+.btn:hover {
+    color: var(--white);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+/* HEADER END */
+/* ==================== */
+/* ABOUT */
+
+.about {
+    padding: 100px 0 50px 0;
+}
+
+.about__img {
+    width: 50%;
+}
+
+.about__title {
+    font-family: var(--mons);
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 35px;
+    
+}
+
+.about__description {
+    font-family: var(--nsans);
+    color: var(--grey);
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* ABOUT END */
+/* ==================== */
+/* SKILLS */
+
+.skills {
+    background-color: var(--grey-lightbg);
+    background: url(../img/macbook.jpg) right center /  no-repeat;
+}
+
+.skills__title {
+    font-family: var(--mons);
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+
+.skills__score {
+    font-family: var(--mons);
+    font-size: 12px;
+
+}
+
+.skills__line {
+    background: var(--line-bg);
+    height: 3px;
+    margin-bottom: 50px;
+}
+
+.skills__line-2 {
+    background: var(--green);
+    height: 3px;
+}
+.skills__line_75 {
+    width: 75%;
+}
+
+.skills__line_90 {
+    width: 90%;
+}
+
+.skills__line_65{
+    width: 65%;
+}
+
+.skills__item-2 {
+    width: 50%;
+}
+
+.skills__img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+
+
+
+/* SKILLS END */
+/* ==================== */
+/* CATALOG */
+
+.catalog {
+    background: var(--green);
+    padding: 70px 80px;
+}
+
+.catalog__img {
+    height: 45px;
+}
+
+.catalog__title {
+    font-family: var(--mons);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 13px;
+}
+
+.catalog__text {
+    font-family: var(--mons);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: var(--white);
+    font-size: 12px;
+}
+
+
+
+/* CATALOG END */
+/* ==================== */
+/* ALBUM */
+
+.album__item {
+    width: 25%;
+    object-fit: cover;
+
+}
+
+
+.catalog-comment {
+    background: var(--green);
+    padding: 35px 0;
+    text-align: center;
+}
+
+.catalog-comment__description {
+    font-family: var(--mons);
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--white);
+
+}
+
+
+
+
+
+
+
+
+
+/* ALBUM END */
+/* ==================== */
+/* PROCESS */
+.process {
+    padding: 100px 0;
+
+}
+
+.process__title {
+    font-size: 44px;
+    font-weight: 500;
+    font-family: var(--mons);
+    margin-bottom: 25px;
+}
+
+.process__text {
+    font-size: 22px;
+    font-family: var(--nsans);
+    color: var(--grey);
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* PROCESS END */
+/* ==================== */
+/* EXPER */
+
+.exper { 
+    background: var(--grey-lightbg);
+    padding: 100px 0 40px 0;
+
+}
+
+.exper__item {
+    margin-bottom: 60px;
+}
+
+.exper__img {
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.exper__title {
+    font-family: var(--mons);
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.exper__text {
+    font-size: 16px;
+    font-family: var(--nsans);
+    color: var(--grey);
+}
+
+
+
+
+
+
+/* EXPER END */
+/* ==================== */
+/* CAROUSEL */
+
+.carousel-block{
+    padding: 190px 0 60px 0;
+    background: var(--green);
+
+}
+
+.carousel__text {
+    font-size: 20px;
+    font-family: var(--mons);
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 35px;
+}
+
+.carousel__autor {
+    font-size: 17px;
+    font-family: var(--mons);
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 100px;
+}
+
+.carousel-block li {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+}
+
+.carousel-block li.active {
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+
+/* CAROUSEL END */
+/* ==================== */
+/* SPONSORS */
+
+.sponsors {
+    padding: 65px 0;
+}
+
+.sponsors__img {
+    height: 65px;
+}
+
+
+
+/* SPONSORS END */
+/* ==================== */
+/* MESSAGE */
+
+.message {
+    background: var(--grey-lightbg);
+    padding: 25px 0 100px 0;
+}
+
+.message__title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.message__description {
+    font-size: 16px;
+    font-family: var(--nsans);
+    color: var(--grey);
+    margin-bottom: 35px;
+}
+
+.message__input {
+    height: 48px;
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    color: var(--grey);
+}
+
+.message__textarea {
+    width: 100%;
+    border: none;
+    height: 170px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.message__submit {
+    display: block;
+    width: 100%;
+    background: var(--green);
+    color: var(--white);
+}
+
+
+.no-margin {
+    margin-top: 0;
+}
+
+
+
+/* MESSAGE END */
+/* ==================== */
+/* FOOTER */
+
+.footer {
+    background: black;
+    color: var(--grey);
+    padding: 100px 0;
+}
+
+.footer__title {
+    color: var(--white);
+    font-family: var(--mons);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.footer__info {
+    font-size: 15px;
+    font-family: var(--nsans);
+    color: var(--grey);
+}
+
+.footer__info:hover {
+    color: var(--grey);
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER END */
+/* ==================== */

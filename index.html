@@ -1,27 +1,378 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style/all.min.css">
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
-<body>
 
-    
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row min-vh-100 flex-column">
+                <nav class="navbar navbar-expand-lg w-100">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars menu-btn"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">process</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header__info col-lg-5 col-md-8 col-sm-12">
+                    <h1 class="header__title">We Design and Develop</h1>
+                    <p class="header__description">We are a new design studio based in USA. We have over
+                        20 years of combined experience, and know a thing or two
+                        about designing websites and mobile apps.</p>
+                    <a href="#" class="btn">contact us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="about">
+            <div class="container">
+                <div class="row justify-content-center ">
+                    <div class="about__item col-lg-6 col-10 text-center">
+                        <h2 class="about__title">About Us</h2>
+                        <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                            delectus eius ea non architecto illum assumenda corporis adipisci blanditiis fugiat ullam
+                            dolorem, nisi animi laborum dolore! Deserunt nostrum ducimus pariatur.</p>
+                        <img src="img/sign.png" class="about__img" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="container-fluid">
+                <div class="row  justify-content-end align-items-center">
+                    <div class="col-lg-5 col-12 skills__item">
+                        <h2 class="skills__title">Professional Skills</h2>
+
+                        <h4 class="skills__score">UI/UX Design 75%</h4>
+                        <div class="skills__line">
+                            <div class="skills__line-2 skills__line_75"></div>
+                        </div>
+
+                        <h4 class="skills__score">WEB DEVELOPMENT 90%</h4>
+                        <div class="skills__line">
+                            <div class="skills__line-2 skills__line_90"></div>
+                        </div>
+
+                        <h4 class="skills__score">MARKETING 65%</h4>
+                        <div class="skills__line">
+                            <div class="skills__line-2 skills__line_65"></div>
+                        </div>
+                    </div>
+                    <div class="skills__item-2 ">
+                        <img src="img/macbook.jpg" class="skills__img " alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- <img src="img/macbook.jpg" class="h-100" alt=""> -->
+        </div>
+
+        <div class="catalog">
+            <div class="container">
+                <div class="row justify-content-between align-items-center text-center">
+                    <div class="col-lg-2 col-sm-6 col-12 catalog__item">
+                        <img src="img/green__img1.png" class="catalog__img" alt="">
+                        <h3 class="catalog__title">548</h3>
+                        <p class="catalog__text">projects complected</p>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12 catalog__item">
+                        <img src="img/green__img2.png" class="catalog__img" alt="">
+                        <h3 class="catalog__title">548</h3>
+                        <p class="catalog__text">projects complected</p>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12  catalog__item">
+                        <img src="img/green__img3.png" class="catalog__img" alt="">
+                        <h3 class="catalog__title">548</h3>
+                        <p class="catalog__text">projects complected</p>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-12  catalog__item">
+                        <img src="img/green__img4.png" class="catalog__img" alt="">
+                        <h3 class="catalog__title">548</h3>
+                        <p class="catalog__text">projects complected</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="album d-flex flex-wrap">
+            <div class="album__item ">
+                <img src="img/images__img1.jpg" class="w-100 h-100" alt="">
+            </div>
+            <div class="album__item ">
+                <img src="img/images__img2.jpg" class="w-100 h-100" alt="">
+            </div>
+            <div class="album__item ">
+                <img src="img/images__img3.jpg" class="w-100 h-100" alt="">
+            </div>
+            <div class="album__item ">
+                <img src="img/images__img4.jpg" class="w-100 h-100" alt="">
+            </div>
+            <div class="album__item ">
+                <img src="img/images__img5.jpg" class="w-100 h-100" alt="">
+            </div>
+            <div class="album__item ">
+                <img src="img/images__img6.jpg" class="w-100 h-100" alt="">
+            </div>
+            <div class="album__item ">
+                <img src="img/images__img7.jpg" class="w-100 h-100" alt="">
+            </div>
+            <div class="album__item ">
+                <img src="img/images__img8.jpg" class="w-100 h-100" alt="">
+            </div>
+        </div>
+
+        <div class="catalog-comment">
+            <h2 class="catalog-comment__description">load more work</h2>
+        </div>
+
+
+        <div class="process">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-10 col-12 text-center">
+                        <h2 class="process__title">Our Work Process</h2>
+                        <p class="process__text">Was years it seasons was there form he in in them together over that,
+                            third sixth gathered female creeping bearing behold years.</p>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <img class="embed-responsive-item" src="img/video.jpg"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="exper">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="exper__item col-lg-3 col-sm-6 col-12">
+                        <img src="img/grey__img1.png" alt="" class="exper__img">
+                        <h3 class="exper__title">ui / ux design</h3>
+                        <p class="exper__text">Be set fourth land god darkness make it wherein own</p>
+                    </div>
+                    <div class="exper__item col-lg-3 col-sm-6 col-12">
+                        <img src="img/grey__img2.png" alt="" class="exper__img">
+                        <h3 class="exper__title">WEB DEVELOPMENT</h3>
+                        <p class="exper__text">A she'd them bring void moving third she'd kind fill</p>
+                    </div>
+                    <div class="exper__item col-lg-3 col-sm-6 col-12">
+                        <img src="img/grey__img3.png" alt="" class="exper__img">
+                        <h3 class="exper__title">APP / MOBILE</h3>
+                        <p class="exper__text">Dominion man second spirit he, earth they're creeping</p>
+                    </div>
+                    <div class="exper__item col-lg-3 col-sm-6 col-12">
+                        <img src="img/grey__img4.png" alt="" class="exper__img">
+                        <h3 class="exper__title">GAME DESIGN</h3>
+                        <p class="exper__text">Morning his saying moveth it multiply appear life be</p>
+                    </div>
+                    <div class="exper__item col-lg-3 col-sm-6 col-12">
+                        <img src="img/grey__img5.png" alt="" class="exper__img">
+                        <h3 class="exper__title">SEO / MARKETING</h3>
+                        <p class="exper__text">Give won't after land fill creeping meat you, may</p>
+                    </div>
+                    <div class="exper__item col-lg-3 col-sm-6 col-12">
+                        <img src="img/grey__img6.png" alt="" class="exper__img">
+                        <h3 class="exper__title">PHOTOGRAPHY</h3>
+                        <p class="exper__text">Creepeth one seas cattle grass give moving saw give</p>
+                    </div>
+                    <div class="exper__item col-lg-3 col-sm-6 col-12">
+                        <img src="img/grey__img7.png" alt="" class="exper__img">
+                        <h3 class="exper__title">GRAPHIC DESIGN</h3>
+                        <p class="exper__text">Open, great whales air rule for, fourth life whales</p>
+                    </div>
+                    <div class="exper__item col-lg-3 col-sm-6 col-12">
+                        <img src="img/grey__img8.png" alt="" class="exper__img">
+                        <h3 class="exper__title">ILLUSTRATIONS</h3>
+                        <p class="exper__text">Whales likeness hath, man kind for them air two won't</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-block">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators align-items-center">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner text-center">
+                                <div class="carousel-item active">
+                                    <p class="carousel__text">“ Outstanding job and exceeded all expectations. It was a
+                                        pleasure to work with them on a sizable first project and am looking forward to
+                                        start the next one asap.”</p>
+                                    <h4 class="carousel__autor">MICHAEL HOPKINS</h4>
+                                </div>
+                                <div class="carousel-item ">
+                                    <p class="carousel__text">“ Outstanding job and exceeded all expectations. It was a
+                                        pleasure to work with them on a sizable first project and am looking forward to
+                                        start the next one asap.”</p>
+                                    <h4 class="carousel__autor">MICHAEL HOPKINS</h4>
+                                </div>
+                                <div class="carousel-item ">
+                                    <p class="carousel__text">“ Outstanding job and exceeded all expectations. It was a
+                                        pleasure to work with them on a sizable first project and am looking forward to
+                                        start the next one asap.”</p>
+                                    <h4 class="carousel__autor">MICHAEL HOPKINS</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sponsors">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <img class="sponsors__img" src="img/sponsor1.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <img class="sponsors__img" src="img/sponsor2.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <img class="sponsors__img" src="img/sponsor3.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <img class="sponsors__img" src="img/sponsor4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="message">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-12 message__info text-center">
+                        <h2 class="message__title">Need a Project?</h2>
+                        <p class="message__description">Let us know what you're looking for in an agency. We'll take a
+                            look and see
+                            if this could be the start of something beautiful.</p>
+                        <p class="message__description">Let us know what you're looking for in an agency. We'll take a
+                            look and see
+                            if this could be the start of something beautiful.</p>
+                    </div>
+
+                    <form class="message__form col-lg-8 col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 col-12">
+                                <input class="message__input" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <input class="message__input" type="text" placeholder="Your Email">
+                            </div>
+                            <div class="col-12">
+                                <input class="message__input" type="text" placeholder="Your Title">
+                            </div>
+                            <div class="col-12">
+                                <textarea class=" message__textarea" placeholder="Your Comment"></textarea>
+                            </div>
+
+                            <a href="#" class="btn no-margin">send message</a>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between footer__menu">
+                <div class="col-lg-3 col-12">
+                    <h4 class="footer__title">Macintosh Design, Inc.</h4>
+                    <p class="footer__info">© 2017 Macintosh. All rights reserved. Designed by Jefry.</p>
+                </div>
+
+                <div class="col-lg-2 col-12 mg-lg-40">
+                    <a href="" class="footer__info ">hello@pirolltheme.com +44 987 065 908 </a>
+                </div>
+
+                <div class="col-lg-3 col-12 d-flex footer__menu__links">
+                    <div class="col-lg-4 col-sm-2 col-3 aaa">
+                        <a href="" class="footer__info">Projects</a>
+                        <a href="" class="footer__info">About</a>
+                        <a href="" class="footer__info">Services</a>
+                        <a href="" class="footer__info">Carreer</a>
+                    </div>
+                    <div class="col-lg-4 col-sm-2 col-3 aaa">
+                        <a href="" class="footer__info">News</a>
+                        <a href="" class="footer__info">Events</a>
+                        <a href="" class="footer__info">Contact</a>
+                        <a href="" class="footer__info">Legals</a>
+                    </div>
+                    <div class="col-lg-4 col-sm-2 col-3 aaa">
+                        <a href="" class="footer__info">Facebook</a>
+                        <a href="" class="footer__info">Twitter</a>
+                        <a href="" class="footer__info">Instagram</a>
+                        <a href="" class="footer__info">Dribbble</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-</script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
